@@ -103,7 +103,7 @@ console.log(averageGrade(grades))
 // Zorg ervoor dat het gemiddelde cijfer dat wordt teruggegeven uit de functie netjes wordt afgerond op twee decimalen.
 // Tip: Google is your best friend!
 
-console.log(Math.round(averageGrade(grades)))
+console.log(grades.toFixed(2))
 
 
 
